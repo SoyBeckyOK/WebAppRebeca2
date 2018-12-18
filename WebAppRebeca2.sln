@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppRebeca2", "WebAppRebeca2\WebAppRebeca2.csproj", "{71EC07AE-C324-4579-BF05-1AB94D1AD856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLC", "SLC\SLC.csproj", "{C23CFC6D-7C01-45AA-BCF8-A5053E8327E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{E9B60879-2B51-4B5F-AD91-07F40405E8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71EC07AE-C324-4579-BF05-1AB94D1AD856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EC07AE-C324-4579-BF05-1AB94D1AD856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EC07AE-C324-4579-BF05-1AB94D1AD856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EC07AE-C324-4579-BF05-1AB94D1AD856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23CFC6D-7C01-45AA-BCF8-A5053E8327E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23CFC6D-7C01-45AA-BCF8-A5053E8327E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23CFC6D-7C01-45AA-BCF8-A5053E8327E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23CFC6D-7C01-45AA-BCF8-A5053E8327E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B60879-2B51-4B5F-AD91-07F40405E8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B60879-2B51-4B5F-AD91-07F40405E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B60879-2B51-4B5F-AD91-07F40405E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B60879-2B51-4B5F-AD91-07F40405E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {487561C4-5468-4D0E-AF9E-87210E9E52AA}
+	EndGlobalSection
+EndGlobal
