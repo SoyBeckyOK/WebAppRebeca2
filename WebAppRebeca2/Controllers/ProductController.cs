@@ -35,7 +35,7 @@ namespace WebAppRebeca2.Controllers
         }
 
         [HttpPut]
-        public void UpdateProduct(int id, Products products)
+        public HttpResponseMessage UpdateProduct(int id, Products products)
         {
             products.ProductID = id;
             if (!Repository.UpdateProducts(products))
@@ -43,6 +43,8 @@ namespace WebAppRebeca2.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotFound);
 
             }
+            var Mensaje = new HttpResponseMessage();
+            return Mensaje;
 
         }
         //DELETE api/product/removeProduct?id={id}
